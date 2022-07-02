@@ -1,7 +1,27 @@
 .Card {
     text-align: left;
     grid-column: col-start 4 / span 6;
-    border: 1px solid #333333;
-    border-radius: 25px;
-    padding: 20px;
+    display: grid;
+    border-radius: 15px;
+    box-shadow: rgba(46, 39, 67, 0.15) 0px 7px 29px 0px;
+    height: auto;
+    overflow: hidden;
+    grid-template-columns: repeat(2, [col-start] 1fr);
+    column-gap: 20px;
+}
+
+.ProjectImage {
+    overflow: hidden;
+    grid-column: 1;
+    max-width: 100%; 
+    height: auto;
+    grid-row: 1;
+}
+
+.ProjectText {
+    padding-top: 20px;
+    padding-right: 20px;
+    grid-column: 2;
+    height: min-content;
+    grid-row: 1;
 }
