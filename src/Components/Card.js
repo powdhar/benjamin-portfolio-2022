@@ -9,7 +9,6 @@ const projects = [{
     "projectName": 'Prosjekt2',
     "projectDescription": 'Beskrivelse'
 }
-
 ]
 
 export default class Card extends Component {

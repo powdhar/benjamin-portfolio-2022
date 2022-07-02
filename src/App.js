@@ -1,7 +1,8 @@
 import './Styles/App.css';
 import Navigation from './Components/Navigation.js';
 import Header from './Components/Header.js';
-import Card from './Components/Card'
+import Card from './Components/Card.js'
+import Contact from './Components/Contact.js'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         <Navigation />
         <Header />
         <Card />
+        <Contact />
     </div>
   );
 }
