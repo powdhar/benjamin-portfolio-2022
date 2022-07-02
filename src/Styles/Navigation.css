@@ -1,0 +1,22 @@
+.Navigation {
+    margin-top: 20px;
+    grid-column: col-start 10 / span 2;
+}
+
+.Navigation ul {
+    display: contents;
+    list-style: none;
+}
+
+.Navigation li {
+    display: inline;
+}
+
+.Navigation li:last-child {
+    margin-left: 20px;
+}
+
+.Navigation a {
+    text-decoration: none;
+}
+

@@ -1,0 +1,7 @@
+.Card {
+    text-align: left;
+    grid-column: col-start 4 / span 6;
+    border: 1px solid #333333;
+    border-radius: 25px;
+    padding: 20px;
+}
