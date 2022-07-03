@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 
 const links = [{
     "label": "Send meg en e-post",
-    "link": "href='mailto:benjaminpowdhar@gmail.com'>benjaminpowdhar@gmail.com"
+    "link": "href='mailto:benjaminpowdhar@gmail.com'>benjaminpowdhar@gmail.com",
+    "link-text": "benjaminpowdhar@gmail.com"
 }, {
     "label": "Nå ut til meg på LinkedIn",
     "link": 'href="https://www.linkedin.com/in/benjamin-powdhar/" target="_blank" rel="noopener noreferrer">linkedin.com/in/benjamin-powdhar/'

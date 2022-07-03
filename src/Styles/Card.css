@@ -8,6 +8,14 @@
     overflow: hidden;
     grid-template-columns: repeat(2, [col-start] 1fr);
     column-gap: 20px;
+    transition: all 250ms ease;
+}
+
+.Card:hover {
+    transition: all 250ms ease;
+    box-shadow: rgba(46, 39, 67, 0.20) 0px 7px 29px 4px;
+    cursor: pointer;
+    transform: translateY(-4px);
 }
 
 .ProjectImage {
