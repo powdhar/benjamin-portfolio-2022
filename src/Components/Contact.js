@@ -2,23 +2,25 @@ import '../Styles/Contact.css';
 import React, { Component } from 'react';
 
 const links = [{
-    "label": "Send meg en e-post",
-    "link": "href='mailto:benjaminpowdhar@gmail.com'>benjaminpowdhar@gmail.com",
-    "link-text": "benjaminpowdhar@gmail.com"
+    "label": 'Send meg en e-post',
+    "link": 'mailto:benjaminpowdhar@gmail.com>benjaminpowdhar@gmail.com',
+    "linkText": 'benjaminpowdhar@gmail.com'
 }, {
-    "label": "Nå ut til meg på LinkedIn",
-    "link": 'href="https://www.linkedin.com/in/benjamin-powdhar/" target="_blank" rel="noopener noreferrer">linkedin.com/in/benjamin-powdhar/'
+    "label": 'Nå ut til meg på LinkedIn',
+    "link": 'https://www.linkedin.com/in/benjamin-powdhar/" target="_blank" rel="noopener noreferrer">linkedin.com/in/benjamin-powdhar/',
+    "linkText": 'linkedin.com/in/benjamin-powdhar/'
 }, {
     "label": "Ta en titt på CV'en min",
-    "link": 'href="https://drive.google.com/file/d/19pWEYM4S6o87GE7uqEpgxqVmFIvKauHm/view" target="_blank" rel="noopener noreferrer"></i>Last ned som PDF'
+    "link": 'https://drive.google.com/file/d/19pWEYM4S6o87GE7uqEpgxqVmFIvKauHm/view" target="_blank" rel="noopener noreferrer"></i>Last ned som PDF',
+    "linkText": 'Last ned som PDF'
 }]
 
 export default class Contact extends Component {
     render() {
         return(
             <React.Fragment>
-              {links.map(({ label, link }) => (
-                <><div className='Contact'><p key={label}>{label}</p><a key={link}>Lenke</a></div></>
+              {links.map(({ label, link, linkText }) => (
+                <><div className='Contact' key="key"><p key={label}>{label}</p><a key={link} href={link} key={linkText}>{linkText}</a></div></>
               ))}
             </React.Fragment>
         )
