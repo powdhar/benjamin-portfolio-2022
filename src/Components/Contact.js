@@ -20,7 +20,7 @@ export default class Contact extends Component {
         return(
             <React.Fragment>
               {links.map(({ label, link, linkText }) => (
-                <><div className='Contact' key="key"><p key={label}>{label}</p><a key={link} href={link} key={linkText}>{linkText}</a></div></>
+                <><div className='Contact' key="key"><p key={label}>{label}</p><a key={link} href={link} key1={linkText}>{linkText}</a></div></>
               ))}
             </React.Fragment>
         )
