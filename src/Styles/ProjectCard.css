@@ -1,4 +1,4 @@
-.Card {
+.ProjectCard {
     text-align: left;
     grid-column: col-start 4 / span 6;
     display: grid;
@@ -11,7 +11,7 @@
     transition: all 250ms ease;
 }
 
-.Card:hover {
+.ProjectCard:hover {
     transition: all 250ms ease;
     box-shadow: rgba(46, 39, 67, 0.20) 0px 7px 29px 4px;
     cursor: pointer;
