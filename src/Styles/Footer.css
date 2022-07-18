@@ -1,4 +1,5 @@
 .Footer {
     text-align: center;
     grid-column: col-start 5 / span 4;
+    font-size: 16px;
 }

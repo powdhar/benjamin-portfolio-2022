@@ -7,7 +7,7 @@ export default class Navigation extends Component {
             <React.Fragment>
                 <nav className='Navigation'>
                     <ul>
-                        <li><a href="#">Prosjekter</a></li>
+                        <li><a className="current" href="#">Prosjekter</a></li>
                         <li><a href="#">Om meg</a></li>
                     </ul>
                 </nav>

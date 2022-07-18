@@ -18,5 +18,10 @@
 
 .Navigation a {
     text-decoration: none;
+    color: #333333;
+}
+
+.current {
+    font-weight: 600;
 }
 

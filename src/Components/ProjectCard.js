@@ -6,8 +6,8 @@ const projects = [{
     "projectDescription": 'Design og koding av egen portefølje',
     "projectImage": 'https://images.unsplash.com/photo-1579546929518-9e396f3cc809?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&ar=4:3&fit=crop&w=1770&q=80'
 }, {
-    "projectName": 'Nettsider for Majorstuen Sykkelverksted',
-    "projectDescription": 'Det var på tide med ny hjemmeside for Oslos hyggeligste sykkelverksted',
+    "projectName": 'Majorstuen Sykkelverksted',
+    "projectDescription": 'Det var på tide med ny hjemmeside sykkelverkstedet',
     "projectImage": 'https://images.unsplash.com/photo-1639493115941-a70fcef4f715?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&ar=4:3&fit=crop&w=1770&q=80'
 }
 ]
