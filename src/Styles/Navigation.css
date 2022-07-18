@@ -17,6 +17,8 @@
 }
 
 .Navigation a {
+    font-size: 20px;
+    line-height: 24px;
     text-decoration: none;
     color: #333333;
 }
